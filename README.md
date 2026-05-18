@@ -7,5 +7,7 @@ https://docs.google.com/presentation/d/1AtCPJnTKCjB4YC7q-k52alyrXzjdRoyNgBv9xEka
 ## How to use:
 
 Step 1: Clnoe the project to your machine
+
 Step 2: npm install
+
 Step 3: node index.js OR nodemon index.js
