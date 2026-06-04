@@ -1,13 +1,13 @@
-let express = require('express');
-let path = require('path');
+let express = require("express");
+let path = require("path");
 
-let app = express()
+let app = express();
 app.use(express.json());
 
-app.get('/', (req, res) => {
-  res.json({Intro: "Hello World"});
+app.get("/", (req, res) => {
+  res.json({ Intro: "Hello World" });
 });
 
 app.listen(3000, () => {
-  console.log('App is listening on port 3000');
+  console.log("App is listening on port 3000");
 });
